@@ -1,0 +1,66 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sumeetbhalla/Documents/CSE 340 POPL/Project 3/POPL Project 3/inputbuf.cc
+iostream
+-
+istream
+-
+vector
+-
+string
+-
+cstdio
+-
+inputbuf.h
+/Users/sumeetbhalla/Documents/CSE 340 POPL/Project 3/POPL Project 3/inputbuf.h
+
+/Users/sumeetbhalla/Documents/CSE 340 POPL/Project 3/POPL Project 3/inputbuf.h
+string
+-
+vector
+-
+
+/Users/sumeetbhalla/Documents/CSE 340 POPL/Project 3/POPL Project 3/lexer.cc
+iostream
+-
+istream
+-
+vector
+-
+string
+-
+cctype
+-
+lexer.h
+/Users/sumeetbhalla/Documents/CSE 340 POPL/Project 3/POPL Project 3/lexer.h
+inputbuf.h
+/Users/sumeetbhalla/Documents/CSE 340 POPL/Project 3/POPL Project 3/inputbuf.h
+
+/Users/sumeetbhalla/Documents/CSE 340 POPL/Project 3/POPL Project 3/lexer.h
+vector
+-
+string
+-
+inputbuf.h
+/Users/sumeetbhalla/Documents/CSE 340 POPL/Project 3/POPL Project 3/inputbuf.h
+
+/Users/sumeetbhalla/Documents/CSE 340 POPL/Project 3/POPL Project 3/parser.cc
+iostream
+-
+cstdlib
+-
+parser.h
+/Users/sumeetbhalla/Documents/CSE 340 POPL/Project 3/POPL Project 3/parser.h
+
+/Users/sumeetbhalla/Documents/CSE 340 POPL/Project 3/POPL Project 3/parser.h
+string
+-
+lexer.h
+/Users/sumeetbhalla/Documents/CSE 340 POPL/Project 3/POPL Project 3/lexer.h
+
